@@ -1,0 +1,4782 @@
+Using PC/SC reader (dev=0) interface
+Reading ...
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 3F00
+APDU Response code: 9000
+APDU Response data : 62548202782183023f00a51980017183027fffcb0d00000000000000000000000000ca01828a0105ab1b84012e9000840188a4068301019501088401fca40683010a950108c60f90017083010183010a83010b830181
+('62548202782183023f00a51980017183027fffcb0d00000000000000000000000000ca01828a0105ab1b84012e9000840188a4068301019501088401fca40683010a950108c60f90017083010183010a83010b830181', '9000')
+OrderedDict([('82', '7821'), ('83', '3f00'), ('a5', '80017183027fffcb0d00000000000000000000000000ca0182'), ('8a', '05'), ('ab', '84012e9000840188a4068301019501088401fca40683010a950108'), ('c6', '90017083010183010a83010b830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 2F00
+APDU Response code: 9000
+APDU Response data : 62228205422100260283022f00a506c00100ca01808a01058b032f06048002004c8801f0
+('62228205422100260283022f00a506c00100ca01808a01058b032f06048002004c8801f0', '9000')
+OrderedDict([('82', '4221002602'), ('83', '2f00'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '2f0604'), ('80', '004c'), ('88', 'f0')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 26
+data: 
+APDU Response code: 9000
+APDU Response data : 61194f10a0000000871002ffffffff890709000050055553696d31ffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F07
+APDU Response code: 9000
+APDU Response data : 62278202412183026f07a50ec001009b063f007f206f07ca01808a01058b036f060380020009880138
+('62278202412183026f07a50ec001009b063f007f206f07ca01808a01058b036f060380020009880138', '9000')
+OrderedDict([('82', '4121'), ('83', '6f07'), ('a5', 'c001009b063f007f206f07ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '0009'), ('88', '38')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 01
+p2: 04
+length: 9
+data: 
+APDU Response code: 9000
+APDU Response data : 
+============================
+***********************************************************************
+6F05
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F05
+APDU Response code: 9000
+APDU Response data : 62258202412183026f05a50cc001009b043f002f05ca01808a01058b036f06028002000a880110
+('62258202412183026f05a50cc001009b043f002f05ca01808a01058b036f06028002000a880110', '9000')
+OrderedDict([('82', '4121'), ('83', '6f05'), ('a5', 'c001009b043f002f05ca0180'), ('8a', '05'), ('8b', '6f0602'), ('80', '000a'), ('88', '10')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 0a
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffff
+============================
+***********************************************************************
+6F06
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F06
+APDU Response code: 9000
+APDU Response data : 622282054221006e0c83026f06a506c00100ca01808a01058b036f0606800205288801b8
+('622282054221006e0c83026f06a506c00100ca01808a01058b036f0606800205288801b8', '9000')
+OrderedDict([('82', '4221006e0c'), ('83', '6f06'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0606'), ('80', '0528'), ('88', 'b8')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 6e
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : 8001079000800160a406830101950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : 8001019000800102a406830101950108800118a40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 03
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : 800101a40683010195010880011aa40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 04
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : 800103a406830101950108800118a40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 05
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : 840132a406830101950108800101a406830101950108800102a406830181950108800118a40683010a9501088001209700ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 06
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : 800101900080011aa40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 07
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : 800101a406830101950108800102a406830181950108800118a40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 08
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 09
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0a
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0b
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0c
+p2: 04
+length: 6e
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F07
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F07
+APDU Response code: 9000
+APDU Response data : 62278202412183026f07a50ec001009b063f007f206f07ca01808a01058b036f060380020009880138
+('62278202412183026f07a50ec001009b063f007f206f07ca01808a01058b036f060380020009880138', '9000')
+OrderedDict([('82', '4121'), ('83', '6f07'), ('a5', 'c001009b063f007f206f07ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '0009'), ('88', '38')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 09
+data: 
+APDU Response code: 9000
+APDU Response data : 089910070000200493
+============================
+***********************************************************************
+6F08
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F08
+APDU Response code: 9000
+APDU Response data : 621f8202412183026f08a506c00100ca01808a01058b036f060480020021880140
+('621f8202412183026f08a506c00100ca01808a01058b036f060480020021880140', '9000')
+OrderedDict([('82', '4121'), ('83', '6f08'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0021'), ('88', '40')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 21
+data: 
+APDU Response code: 9000
+APDU Response data : 07ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F09
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F09
+APDU Response code: 9000
+APDU Response data : 621f8202412183026f09a506c00100ca01808a01058b036f060480020021880148
+('621f8202412183026f09a506c00100ca01808a01058b036f060480020021880148', '9000')
+OrderedDict([('82', '4121'), ('83', '6f09'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0021'), ('88', '48')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 21
+data: 
+APDU Response code: 9000
+APDU Response data : 07ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F2C
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F2C
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6F31
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F31
+APDU Response code: 9000
+APDU Response data : 62278202412183026f31a50ec001009b063f007f206f31ca01808a01058b036f060380020001880190
+('62278202412183026f31a50ec001009b063f007f206f31ca01808a01058b036f060380020001880190', '9000')
+OrderedDict([('82', '4121'), ('83', '6f31'), ('a5', 'c001009b063f007f206f31ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '0001'), ('88', '90')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 01
+data: 
+APDU Response code: 9000
+APDU Response data : 05
+============================
+***********************************************************************
+6F32
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F32
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6F37
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F37
+APDU Response code: 9000
+APDU Response data : 62268202412183026f37a50ec001009b063f007f206f37ca01808a01058b036f0604800200038800
+('62268202412183026f37a50ec001009b063f007f206f37ca01808a01058b036f0604800200038800', '9000')
+OrderedDict([('82', '4121'), ('83', '6f37'), ('a5', 'c001009b063f007f206f37ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0003'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+***********************************************************************
+6F38
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F38
+APDU Response code: 9000
+APDU Response data : 621f8202412183026f38a506c00100ca01808a01058b036f060380020009880120
+('621f8202412183026f38a506c00100ca01808a01058b036f060380020009880120', '9000')
+OrderedDict([('82', '4121'), ('83', '6f38'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '0009'), ('88', '20')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 09
+data: 
+APDU Response code: 9000
+APDU Response data : 9e6b1dfc67f6580000
+============================
+***********************************************************************
+6F39
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F39
+APDU Response code: 9000
+APDU Response data : 622a8205462100031483026f39a50ec001009b063f007f206f39ca01808a01058b036f06058002003c8801e0
+('622a8205462100031483026f39a50ec001009b063f007f206f39ca01808a01058b036f06058002003c8801e0', '9000')
+OrderedDict([('82', '4621000314'), ('83', '6f39'), ('a5', 'c001009b063f007f206f39ca0180'), ('8a', '05'), ('8b', '6f0605'), ('80', '003c'), ('88', 'e0')])
+(20, '03')
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 03
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 03
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 04
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 05
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 06
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 07
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 08
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 09
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0a
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0b
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0c
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0d
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0e
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0f
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 10
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 11
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 12
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 13
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 14
+p2: 04
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : 000000
+============================
+***********************************************************************
+6F3B
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F3B
+APDU Response code: 9000
+APDU Response data : 622982054221001c1483026f3ba50ec001009b063f007f106f3bca01808a01058b036f0607800202308800
+('622982054221001c1483026f3ba50ec001009b063f007f106f3bca01808a01058b036f0607800202308800', '9000')
+OrderedDict([('82', '4221001c14'), ('83', '6f3b'), ('a5', 'c001009b063f007f106f3bca0180'), ('8a', '05'), ('8b', '6f0607'), ('80', '0230'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 1c
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 03
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 04
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 05
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 06
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 07
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 08
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 09
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0a
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0b
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0c
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0d
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0e
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0f
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 10
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 11
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 12
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 13
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 14
+p2: 04
+length: 1c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F3C
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F3C
+APDU Response code: 9000
+APDU Response data : 62298205422100b01e83026f3ca50ec001009b063f007f106f3cca01808a01058b036f0604800214a08800
+('62298205422100b01e83026f3ca50ec001009b063f007f106f3cca01808a01058b036f0604800214a08800', '9000')
+OrderedDict([('82', '422100b01e'), ('83', '6f3c'), ('a5', 'c001009b063f007f106f3cca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '14a0'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: b0
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 03
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 04
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 05
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 06
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 07
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 08
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 09
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0a
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0b
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0c
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0d
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0e
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0f
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 10
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 11
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 12
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 13
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 14
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 15
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 16
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 17
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 18
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 19
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 1a
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 1b
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 1c
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 1d
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 1e
+p2: 04
+length: b0
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F3E
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F3E
+APDU Response code: 9000
+APDU Response data : 62268202412183026f3ea50ec001009b063f007f206f3eca01808a01058b036f06038002000a8800
+('62268202412183026f3ea50ec001009b063f007f206f3eca01808a01058b036f06038002000a8800', '9000')
+OrderedDict([('82', '4121'), ('83', '6f3e'), ('a5', 'c001009b063f007f206f3eca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '000a'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 0a
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffff
+============================
+***********************************************************************
+6F3F
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F3F
+APDU Response code: 9000
+APDU Response data : 62268202412183026f3fa50ec001009b063f007f206f3fca01808a01058b036f06038002000a8800
+('62268202412183026f3fa50ec001009b063f007f206f3fca01808a01058b036f06038002000a8800', '9000')
+OrderedDict([('82', '4121'), ('83', '6f3f'), ('a5', 'c001009b063f007f206f3fca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '000a'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 0a
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffff
+============================
+***********************************************************************
+6F40
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F40
+APDU Response code: 9000
+APDU Response data : 62298205422100220683026f40a50ec001009b063f007f106f40ca01808a01058b036f0603800200cc8800
+('62298205422100220683026f40a50ec001009b063f007f106f40ca01808a01058b036f0603800200cc8800', '9000')
+OrderedDict([('82', '4221002206'), ('83', '6f40'), ('a5', 'c001009b063f007f106f40ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '00cc'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 22
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffff07918812014230f9ffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 03
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 04
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 05
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 06
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F41
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F41
+APDU Response code: 9000
+APDU Response data : 62268202412183026f41a50ec001009b063f007f206f41ca01808a01058b036f0604800200058800
+('62268202412183026f41a50ec001009b063f007f206f41ca01808a01058b036f0604800200058800', '9000')
+OrderedDict([('82', '4121'), ('83', '6f41'), ('a5', 'c001009b063f007f206f41ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0005'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 05
+data: 
+APDU Response code: 9000
+APDU Response data : ffffff0000
+============================
+***********************************************************************
+6F42
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F42
+APDU Response code: 9000
+APDU Response data : 62298205422100340283026f42a50ec001009b063f007f106f42ca01808a01058b036f0604800200688800
+('62298205422100340283026f42a50ec001009b063f007f106f42ca01808a01058b036f0604800200688800', '9000')
+OrderedDict([('82', '4221003402'), ('83', '6f42'), ('a5', 'c001009b063f007f106f42ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0068'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 34
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 34
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffe1ffffffffffffffffffffffff0581005155f5ffffffffffff000000
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: 34
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F43
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F43
+APDU Response code: 9000
+APDU Response data : 62268202412183026f43a50ec001009b063f007f106f43ca01808a01058b036f0604800200028800
+('62268202412183026f43a50ec001009b063f007f106f43ca01808a01058b036f0604800200028800', '9000')
+OrderedDict([('82', '4121'), ('83', '6f43'), ('a5', 'c001009b063f007f106f43ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0002'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 02
+data: 
+APDU Response code: 9000
+APDU Response data : ffff
+============================
+***********************************************************************
+6F45
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F45
+APDU Response code: 9000
+APDU Response data : 62268202412183026f45a50ec001009b063f007f206f45ca01808a01058b036f06048002000a8800
+('62268202412183026f45a50ec001009b063f007f206f45ca01808a01058b036f06048002000a8800', '9000')
+OrderedDict([('82', '4121'), ('83', '6f45'), ('a5', 'c001009b063f007f206f45ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '000a'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 0a
+data: 
+APDU Response code: 9000
+APDU Response data : 11041112111fffffffff
+============================
+***********************************************************************
+6F46
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F46
+APDU Response code: 9000
+APDU Response data : 62268202412183026f46a50ec001009b063f007f206f46ca01808a01058b036f0606800200118800
+('62268202412183026f46a50ec001009b063f007f206f46ca01808a01058b036f0606800200118800', '9000')
+OrderedDict([('82', '4121'), ('83', '6f46'), ('a5', 'c001009b063f007f206f46ca0180'), ('8a', '05'), ('8b', '6f0606'), ('80', '0011'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 11
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F47
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F47
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6F48
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F48
+APDU Response code: 9000
+APDU Response data : 621f8202412183026f48a506c00100ca01808a01058b036f060380020002880170
+('621f8202412183026f48a506c00100ca01808a01058b036f060380020002880170', '9000')
+OrderedDict([('82', '4121'), ('83', '6f48'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '0002'), ('88', '70')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 02
+data: 
+APDU Response code: 9000
+APDU Response data : ffff
+============================
+***********************************************************************
+6F49
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F49
+APDU Response code: 9000
+APDU Response data : 62298205422100221483026f49a50ec001009b063f007f106f49ca01808a01058b036f0603800202a88800
+('62298205422100221483026f49a50ec001009b063f007f106f49ca01808a01058b036f0603800202a88800', '9000')
+OrderedDict([('82', '4221002214'), ('83', '6f49'), ('a5', 'c001009b063f007f106f49ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '02a8'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 22
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 03
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 04
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 05
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 06
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 07
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 08
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 09
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0a
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0b
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0c
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0d
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0e
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0f
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 10
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 11
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 12
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 13
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 14
+p2: 04
+length: 22
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F4B
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F4B
+APDU Response code: 9000
+APDU Response data : 622982054221000d1083026f4ba50ec001009b063f007f106f4bca01808a01058b036f0607800200d08800
+('622982054221000d1083026f4ba50ec001009b063f007f106f4bca01808a01058b036f0607800200d08800', '9000')
+OrderedDict([('82', '4221000d10'), ('83', '6f4b'), ('a5', 'c001009b063f007f106f4bca0180'), ('8a', '05'), ('8b', '6f0607'), ('80', '00d0'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 0d
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 03
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 04
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 05
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 06
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 07
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 08
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 09
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0a
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0b
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0c
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0d
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0e
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0f
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 10
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+***********************************************************************
+6F4C
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F4C
+APDU Response code: 9000
+APDU Response data : 622982054221000d1083026f4ca50ec001009b063f007f106f4cca01808a01058b036f0603800200d08800
+('622982054221000d1083026f4ca50ec001009b063f007f106f4cca01808a01058b036f0603800200d08800', '9000')
+OrderedDict([('82', '4221000d10'), ('83', '6f4c'), ('a5', 'c001009b063f007f106f4cca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '00d0'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 0d
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 03
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 04
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 05
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 06
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 07
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 08
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 09
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0a
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0b
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0c
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0d
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0e
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0f
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 10
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : 00ffffffffffffffffffffffff
+============================
+***********************************************************************
+6F4D
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F4D
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6F4E
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F4E
+APDU Response code: 9000
+APDU Response data : 622182054221000d0a83026f4ea506c00100ca01808a01058b036f0604800200828800
+('622182054221000d0a83026f4ea506c00100ca01808a01058b036f0604800200828800', '9000')
+OrderedDict([('82', '4221000d0a'), ('83', '6f4e'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0082'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 0d
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 03
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 04
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 05
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 06
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 07
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 08
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 09
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 0a
+p2: 04
+length: 0d
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F4F
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F4F
+APDU Response code: 9000
+APDU Response data : 622282054221000f0583026f4fa506c00100ca01808a01058b036f06048002004b8801b0
+('622282054221000f0583026f4fa506c00100ca01808a01058b036f06048002004b8801b0', '9000')
+OrderedDict([('82', '4221000f05'), ('83', '6f4f'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '004b'), ('88', 'b0')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 0f
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 0f
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: 0f
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 03
+p2: 04
+length: 0f
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 04
+p2: 04
+length: 0f
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffff
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 05
+p2: 04
+length: 0f
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F50
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F50
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6F55
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F55
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6F56
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F56
+APDU Response code: 9000
+APDU Response data : 621f8202412183026f56a506c00100ca01808a01058b036f060780020009880128
+('621f8202412183026f56a506c00100ca01808a01058b036f060780020009880128', '9000')
+OrderedDict([('82', '4121'), ('83', '6f56'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0607'), ('80', '0009'), ('88', '28')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 09
+data: 
+APDU Response code: 9000
+APDU Response data : 000000000000000000
+============================
+***********************************************************************
+6F57
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F57
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6F58
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F58
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6F5B
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F5B
+APDU Response code: 9000
+APDU Response data : 621f8202412183026f5ba506c00100ca01808a01058b036f060480020006880178
+('621f8202412183026f5ba506c00100ca01808a01058b036f060480020006880178', '9000')
+OrderedDict([('82', '4121'), ('83', '6f5b'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0006'), ('88', '78')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 06
+data: 
+APDU Response code: 9000
+APDU Response data : 000000000000
+============================
+***********************************************************************
+6F5C
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F5C
+APDU Response code: 9000
+APDU Response data : 621f8202412183026f5ca506c00100ca01808a01058b036f060380020003880180
+('621f8202412183026f5ca506c00100ca01808a01058b036f060380020003880180', '9000')
+OrderedDict([('82', '4121'), ('83', '6f5c'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '0003'), ('88', '80')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : ffffff
+============================
+***********************************************************************
+6F5C
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F5C
+APDU Response code: 9000
+APDU Response data : 621f8202412183026f5ca506c00100ca01808a01058b036f060380020003880180
+('621f8202412183026f5ca506c00100ca01808a01058b036f060380020003880180', '9000')
+OrderedDict([('82', '4121'), ('83', '6f5c'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '0003'), ('88', '80')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 03
+data: 
+APDU Response code: 9000
+APDU Response data : ffffff
+============================
+***********************************************************************
+6F60
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F60
+APDU Response code: 9000
+APDU Response data : 62278202412183026f60a50ec001009b063f007f206f60ca01808a01058b036f06038002003c880150
+('62278202412183026f60a50ec001009b063f007f206f60ca01808a01058b036f06038002003c880150', '9000')
+OrderedDict([('82', '4121'), ('83', '6f60'), ('a5', 'c001009b063f007f206f60ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '003c'), ('88', '50')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 3c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F61
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F61
+APDU Response code: 9000
+APDU Response data : 62278202412183026f61a50ec001009b063f007f206f61ca01808a01058b036f06038002003c880188
+('62278202412183026f61a50ec001009b063f007f206f61ca01808a01058b036f06038002003c880188', '9000')
+OrderedDict([('82', '4121'), ('83', '6f61'), ('a5', 'c001009b063f007f206f61ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '003c'), ('88', '88')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 3c
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F62
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F62
+APDU Response code: 9000
+APDU Response data : 621f8202412183026f62a506c00100ca01808a01058b036f060380020019880198
+('621f8202412183026f62a506c00100ca01808a01058b036f060380020019880198', '9000')
+OrderedDict([('82', '4121'), ('83', '6f62'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '0019'), ('88', '98')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 19
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6F73
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F73
+APDU Response code: 9000
+APDU Response data : 62278202412183026f73a50ec001009b063f007f206f53ca01808a01058b036f06048002000e880160
+('62278202412183026f73a50ec001009b063f007f206f53ca01808a01058b036f06048002000e880160', '9000')
+OrderedDict([('82', '4121'), ('83', '6f73'), ('a5', 'c001009b063f007f206f53ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '000e'), ('88', '60')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 0e
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffff00fffeff01
+============================
+***********************************************************************
+6F78
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F78
+APDU Response code: 9000
+APDU Response data : 62278202412183026f78a50ec001009b063f007f206f78ca01808a01058b036f060380020002880130
+('62278202412183026f78a50ec001009b063f007f206f78ca01808a01058b036f060380020002880130', '9000')
+OrderedDict([('82', '4121'), ('83', '6f78'), ('a5', 'c001009b063f007f206f78ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '0002'), ('88', '30')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 02
+data: 
+APDU Response code: 9000
+APDU Response data : 0200
+============================
+***********************************************************************
+6F7B
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F7B
+APDU Response code: 9000
+APDU Response data : 62278202412183026f7ba50ec001009b063f007f206f7bca01808a01058b036f06048002000c880168
+('62278202412183026f7ba50ec001009b063f007f206f7bca01808a01058b036f06048002000c880168', '9000')
+OrderedDict([('82', '4121'), ('83', '6f7b'), ('a5', 'c001009b063f007f206f7bca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '000c'), ('88', '68')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 0c
+data: 
+APDU Response code: 9000
+APDU Response data : 62f21062f22062f23062f270
+============================
+***********************************************************************
+6F7E
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F7E
+APDU Response code: 9000
+APDU Response data : 62278202412183026f7ea50ec001009b063f007f206f7eca01808a01058b036f06048002000b880158
+('62278202412183026f7ea50ec001009b063f007f206f7eca01808a01058b036f06048002000b880158', '9000')
+OrderedDict([('82', '4121'), ('83', '6f7e'), ('a5', 'c001009b063f007f206f7eca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '000b'), ('88', '58')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 0b
+data: 
+APDU Response code: 9000
+APDU Response data : fffffffffffffffffe0000
+============================
+***********************************************************************
+6F80
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F80
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6F81
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F81
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6F82
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F82
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6F83
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6F83
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FAD
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FAD
+APDU Response code: 9000
+APDU Response data : 62278202412183026fada50ec001009b063f007f206fadca01808a01058b036f060680020004880118
+('62278202412183026fada50ec001009b063f007f206fadca01808a01058b036f060680020004880118', '9000')
+OrderedDict([('82', '4121'), ('83', '6fad'), ('a5', 'c001009b063f007f206fadca0180'), ('8a', '05'), ('8b', '6f0606'), ('80', '0004'), ('88', '18')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 04
+data: 
+APDU Response code: 9000
+APDU Response data : 00000002
+============================
+***********************************************************************
+6FB1
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FB1
+APDU Response code: 9000
+APDU Response data : 62268202412183026fb1a50ec001009b063f007f206fb1ca01808a01058b036f0604800200508800
+('62268202412183026fb1a50ec001009b063f007f206fb1ca01808a01058b036f0604800200508800', '9000')
+OrderedDict([('82', '4121'), ('83', '6fb1'), ('a5', 'c001009b063f007f206fb1ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0050'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 50
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6FB2
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FB2
+APDU Response code: 9000
+APDU Response data : 62268202412183026fb2a50ec001009b063f007f206fb2ca01808a01058b036f0604800200078800
+('62268202412183026fb2a50ec001009b063f007f206fb2ca01808a01058b036f0604800200078800', '9000')
+OrderedDict([('82', '4121'), ('83', '6fb2'), ('a5', 'c001009b063f007f206fb2ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0007'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 07
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffff
+============================
+***********************************************************************
+6FB3
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FB3
+APDU Response code: 9000
+APDU Response data : 62268202412183026fb3a50ec001009b063f007f206fb3ca01808a01058b036f0604800200508800
+('62268202412183026fb3a50ec001009b063f007f206fb3ca01808a01058b036f0604800200508800', '9000')
+OrderedDict([('82', '4121'), ('83', '6fb3'), ('a5', 'c001009b063f007f206fb3ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0050'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 50
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6FB4
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FB4
+APDU Response code: 9000
+APDU Response data : 62268202412183026fb4a50ec001009b063f007f206fb4ca01808a01058b036f0604800200078800
+('62268202412183026fb4a50ec001009b063f007f206fb4ca01808a01058b036f0604800200078800', '9000')
+OrderedDict([('82', '4121'), ('83', '6fb4'), ('a5', 'c001009b063f007f206fb4ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0007'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 07
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffff
+============================
+***********************************************************************
+6FB5
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FB5
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FB6
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FB6
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FB7
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FB7
+APDU Response code: 9000
+APDU Response data : 62228205422100100583026fb7a506c00100ca01808a01058b036f060680020050880108
+('62228205422100100583026fb7a506c00100ca01808a01058b036f060680020050880108', '9000')
+OrderedDict([('82', '4221001005'), ('83', '6fb7'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0606'), ('80', '0050'), ('88', '08')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 10
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 10
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffff00
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 02
+p2: 04
+length: 10
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffff00
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 03
+p2: 04
+length: 10
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffff00
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 04
+p2: 04
+length: 10
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffff00
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 05
+p2: 04
+length: 10
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffff00
+============================
+***********************************************************************
+6FC3
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FC3
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FC4
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FC4
+APDU Response code: 9000
+APDU Response data : 621e8202412183026fc4a506c00100ca01808a01058b036f0604800200408800
+('621e8202412183026fc4a506c00100ca01808a01058b036f0604800200408800', '9000')
+OrderedDict([('82', '4121'), ('83', '6fc4'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0040'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 40
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6FC5
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FC5
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FC6
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FC6
+APDU Response code: 9000
+APDU Response data : 62228205422100080183026fc6a506c00100ca01808a01058b036f0606800200088801d0
+('62228205422100080183026fc6a506c00100ca01808a01058b036f0606800200088801d0', '9000')
+OrderedDict([('82', '4221000801'), ('83', '6fc6'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0606'), ('80', '0008'), ('88', 'd0')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 08
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 08
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffff
+============================
+***********************************************************************
+6FC7
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FC7
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FC8
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FC8
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FC9
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FC9
+APDU Response code: 9000
+APDU Response data : 62218205422100040183026fc9a506c00100ca01808a01058b036f0604800200048800
+('62218205422100040183026fc9a506c00100ca01808a01058b036f0604800200048800', '9000')
+OrderedDict([('82', '4221000401'), ('83', '6fc9'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0004'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 04
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 04
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffff
+============================
+***********************************************************************
+6FCA
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FCA
+APDU Response code: 9000
+APDU Response data : 62218205422100050183026fcaa506c00100ca01808a01058b036f0604800200058800
+('62218205422100050183026fcaa506c00100ca01808a01058b036f0604800200058800', '9000')
+OrderedDict([('82', '4221000501'), ('83', '6fca'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0005'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 00
+p2: 04
+length: 05
+data: 
+APDU Response code: 6a83
+APDU Response data : 
+============================
+APDU SENT:
+CLA: 00
+INS: b2
+p1: 01
+p2: 04
+length: 05
+data: 
+APDU Response code: 9000
+APDU Response data : 0000000000
+============================
+***********************************************************************
+6FCB
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FCB
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FCC
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FCC
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FCD
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FCD
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FCE
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FCE
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FCF
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FCF
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FD0
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FD0
+APDU Response code: 9000
+APDU Response data : 621e8202412183026fd0a506c00100ca01808a01058b036f0603800200088800
+('621e8202412183026fd0a506c00100ca01808a01058b036f0603800200088800', '9000')
+OrderedDict([('82', '4121'), ('83', '6fd0'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0603'), ('80', '0008'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 08
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffff
+============================
+***********************************************************************
+6FD1
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FD1
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FD2
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FD2
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FD3
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FD3
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FD4
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FD4
+APDU Response code: 9000
+APDU Response data : 621e8202412183026fd4a506c00100ca01808a01058b036f0604800200028800
+('621e8202412183026fd4a506c00100ca01808a01058b036f0604800200028800', '9000')
+OrderedDict([('82', '4121'), ('83', '6fd4'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0002'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 02
+data: 
+APDU Response code: 9000
+APDU Response data : ffff
+============================
+***********************************************************************
+6FD5
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FD5
+APDU Response code: 9000
+APDU Response data : 621e8202412183026fd5a506c00100ca01808a01058b036f0604800200028800
+('621e8202412183026fd5a506c00100ca01808a01058b036f0604800200028800', '9000')
+OrderedDict([('82', '4121'), ('83', '6fd5'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0002'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 02
+data: 
+APDU Response code: 9000
+APDU Response data : ffff
+============================
+***********************************************************************
+6FD6
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FD6
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FD7
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FD7
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FD8
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FD8
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FD9
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FD9
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FDA
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FDA
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FDB
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FDB
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FDC
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FDC
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FDD
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FDD
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FDE
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FDE
+APDU Response code: 9000
+APDU Response data : 621e8202412183026fdea506c00100ca01808a01058b036f06068002000a8800
+('621e8202412183026fdea506c00100ca01808a01058b036f06068002000a8800', '9000')
+OrderedDict([('82', '4121'), ('83', '6fde'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0606'), ('80', '000a'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 0a
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffff
+============================
+***********************************************************************
+6FDF
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FDF
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FE2
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FE2
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FE3
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FE3
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FE4
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FE4
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FE6
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FE6
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FE7
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FE7
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FE8
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FE8
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FEC
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FEC
+APDU Response code: 9000
+APDU Response data : 621e8202412183026feca506c00100ca01808a01058b036f0604800200208800
+('621e8202412183026feca506c00100ca01808a01058b036f0604800200208800', '9000')
+OrderedDict([('82', '4121'), ('83', '6fec'), ('a5', 'c00100ca0180'), ('8a', '05'), ('8b', '6f0604'), ('80', '0020'), ('88', '')])
+APDU SENT:
+CLA: 00
+INS: b0
+p1: 00
+p2: 00
+length: 20
+data: 
+APDU Response code: 9000
+APDU Response data : ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+============================
+***********************************************************************
+6FED
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FED
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FEE
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FEE
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FEF
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FEF
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FF0
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FF0
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FF1
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FF1
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FF2
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FF2
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FF3
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FF3
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+***********************************************************************
+6FF4
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 04
+p2: 04
+length: 10
+data: a0000000871002ffffffff8907090000
+APDU Response code: 9000
+APDU Response data : 62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181
+('62578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181', '9000')
+OrderedDict([('82', '7821'), ('83', '7fff'), ('84', 'a0000000871002ffffffff8907090000'), ('a5', '83027fffcb0d00000000000000000000000000ca0180'), ('8a', '05'), ('ab', '800101a40683010a95010880014097008001069000'), ('c6', '900140830101830181')])
+APDU SENT:
+CLA: 00
+INS: a4
+p1: 00
+p2: 04
+length: 02
+data: 6FF4
+APDU Response code: 6a82
+APDU Response data : 
+('', '6a82')
+============================
+[Name: 6F05
+ Type: transparent 
+ Data: ffffffffffffffffffff
+, Name: 6F06
+ Type: linear 
+ Data: ['', '8001079000800160a406830101950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '8001019000800102a406830101950108800118a40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '800101a40683010195010880011aa40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '800103a406830101950108800118a40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '840132a406830101950108800101a406830101950108800102a406830181950108800118a40683010a9501088001209700ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '800101900080011aa40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '800101a406830101950108800102a406830181950108800118a40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000']
+, Name: 6F07
+ Type: transparent 
+ Data: 089910070000200493
+, Name: 6F08
+ Type: transparent 
+ Data: 07ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+, Name: 6F09
+ Type: transparent 
+ Data: 07ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+, Name: 6F31
+ Type: transparent 
+ Data: 05
+, Name: 6F37
+ Type: transparent 
+ Data: 000000
+, Name: 6F38
+ Type: transparent 
+ Data: 9e6b1dfc67f6580000
+, Name: 6F39
+ Type: cyclic 
+ Data: ['', '8001079000800160a406830101950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '8001019000800102a406830101950108800118a40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '800101a40683010195010880011aa40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '800103a406830101950108800118a40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '840132a406830101950108800101a406830101950108800102a406830181950108800118a40683010a9501088001209700ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '800101900080011aa40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '800101a406830101950108800102a406830181950108800118a40683010a950108ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000', '000000']
+, Name: 6F3B
+ Type: linear 
+ Data: ['', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffff']
+, Name: 6F3C
+ Type: linear 
+ Data: ['', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', '00ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff']
+, Name: 6F3E
+ Type: transparent 
+ Data: ffffffffffffffffffff
+, Name: 6F3F
+ Type: transparent 
+ Data: ffffffffffffffffffff
+, Name: 6F40
+ Type: linear 
+ Data: ['', 'ffffffffffffffffffffffffffffffffffff07918812014230f9ffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff']
+, Name: 6F41
+ Type: transparent 
+ Data: ffffff0000
+, Name: 6F42
+ Type: linear 
+ Data: ['', 'ffffffffffffffffffffffffffffffffffffffffffffffffe1ffffffffffffffffffffffff0581005155f5ffffffffffff000000', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff']
+, Name: 6F43
+ Type: transparent 
+ Data: ffff
+, Name: 6F45
+ Type: transparent 
+ Data: 11041112111fffffffff
+, Name: 6F46
+ Type: transparent 
+ Data: 00ffffffffffffffffffffffffffffffff
+, Name: 6F48
+ Type: transparent 
+ Data: ffff
+, Name: 6F49
+ Type: linear 
+ Data: ['', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff']
+, Name: 6F4B
+ Type: linear 
+ Data: ['', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff']
+, Name: 6F4C
+ Type: linear 
+ Data: ['', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff', '00ffffffffffffffffffffffff']
+, Name: 6F4E
+ Type: linear 
+ Data: ['', 'ffffffffffffffffffffffffff', 'ffffffffffffffffffffffffff', 'ffffffffffffffffffffffffff', 'ffffffffffffffffffffffffff', 'ffffffffffffffffffffffffff', 'ffffffffffffffffffffffffff', 'ffffffffffffffffffffffffff', 'ffffffffffffffffffffffffff', 'ffffffffffffffffffffffffff', 'ffffffffffffffffffffffffff']
+, Name: 6F4F
+ Type: linear 
+ Data: ['', 'ffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffff', 'ffffffffffffffffffffffffffffff']
+, Name: 6F56
+ Type: transparent 
+ Data: 000000000000000000
+, Name: 6F5B
+ Type: transparent 
+ Data: 000000000000
+, Name: 6F5C
+ Type: transparent 
+ Data: ffffff
+, Name: 6F5C
+ Type: transparent 
+ Data: ffffff
+, Name: 6F60
+ Type: transparent 
+ Data: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+, Name: 6F61
+ Type: transparent 
+ Data: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+, Name: 6F62
+ Type: transparent 
+ Data: ffffffffffffffffffffffffffffffffffffffffffffffffff
+, Name: 6F73
+ Type: transparent 
+ Data: ffffffffffffffffff00fffeff01
+, Name: 6F78
+ Type: transparent 
+ Data: 0200
+, Name: 6F7B
+ Type: transparent 
+ Data: 62f21062f22062f23062f270
+, Name: 6F7E
+ Type: transparent 
+ Data: fffffffffffffffffe0000
+, Name: 6FAD
+ Type: transparent 
+ Data: 00000002
+, Name: 6FB1
+ Type: transparent 
+ Data: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+, Name: 6FB2
+ Type: transparent 
+ Data: ffffffffffffff
+, Name: 6FB3
+ Type: transparent 
+ Data: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+, Name: 6FB4
+ Type: transparent 
+ Data: ffffffffffffff
+, Name: 6FB7
+ Type: linear 
+ Data: ['', 'ffffffffffffffffffffffffffffff00', 'ffffffffffffffffffffffffffffff00', 'ffffffffffffffffffffffffffffff00', 'ffffffffffffffffffffffffffffff00', 'ffffffffffffffffffffffffffffff00']
+, Name: 6FC4
+ Type: transparent 
+ Data: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+, Name: 6FC6
+ Type: linear 
+ Data: ['', 'ffffffffffffffff']
+, Name: 6FC9
+ Type: linear 
+ Data: ['', 'ffffffff']
+, Name: 6FCA
+ Type: linear 
+ Data: ['', '0000000000']
+, Name: 6FD0
+ Type: transparent 
+ Data: ffffffffffffffff
+, Name: 6FD4
+ Type: transparent 
+ Data: ffff
+, Name: 6FD5
+ Type: transparent 
+ Data: ffff
+, Name: 6FDE
+ Type: transparent 
+ Data: ffffffffffffffffffff
+, Name: 6FEC
+ Type: transparent 
+ Data: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+]
+[]

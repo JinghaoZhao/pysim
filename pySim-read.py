@@ -40,18 +40,24 @@ from pySim.commands import SimCardCommands
 from pySim.utils import h2b, swap_nibbles, rpad, dec_imsi, dec_iccid, format_xplmn_w_act
 
 class EF:
-        def __init__(self, name):
+        def __init__(self, name, tp ="transparent"):
                 self.name = name
                 self.fci = None
+                self.tp = tp #transparent, linear, cyclic 
                 self.data = None
+                
         def __repr__(self):
-                return self.name
+                return "\nName: {}\n Type: {} \n FCI: {} \n Data: {}\n".format(self.name, self.tp, self.fci, self.data)
         
         def set_fci(self, fci):
                 self.fci = fci
                 
         def set_data(self, data):
                 self.data = data
+
+        def set_type(self, tp):
+                assert(tp == "transparent" or tp =="linear" or tp =="cyclic")
+                self.tp = tp
                 
 def parse_options():
 
@@ -132,61 +138,51 @@ if __name__ == '__main__':
                 print(adf_ef.name)
                 scc.send_apdu(ins = 'a4',p1 = '04', p2 = '04', data = 'a0000000871002ffffffff8907090000')
                 (fci, sw), parsed = scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = adf_ef.name)
-                
+                adf_ef.set_fci = fci
+
                 if sw == '6a82':
                         continue
 
                 elif sw == '9000':
-                        if '82' in parsed.keys() and '82' == '41': 
-                                scc.send_apdu_without_length(ins = 'b0',p1 = '01', p2 = '04', data = parsed['80'])
-                        if '82' in parsed.keys() and '82' == '42':
-                                scc.send_apdu_without_length(ins = 'b0',p1 = '01', p2 = '04', data = parsed['80'])
-                        adf_dir.append(adf_ef)
+                        #transparent 
+                        if '82' in parsed.keys() and parsed['82'].startswith('41'): 
+                                (data, sw) = scc.send_apdu_without_length(ins = 'b0',p1 = '00', p2 = '00', data = parsed['80'][2:4])
+                                assert(sw == '9000')
+                                adf_ef.set_type('transparent')
+                                adf_ef.set_data(data)
 
+                        #linear
+                        if '82' in parsed.keys() and parsed['82'].startswith('42'):
+                                record_list = []
+                                num_rec = int(parsed['82'][8:], 16)
+                                len_rec = parsed['82'][6:8]
+                                for i in range(num_rec + 1):
+                                        (data ,sw) = scc.send_apdu_without_length(ins = 'b2',p1 = '%02x'%(i), p2 = '04', data = str(len_rec))
+                                        record_list.append(data)
+
+                                adf_ef.set_type('linear')
+                                adf_ef.set_data(record_list)
+                                assert(sw == '9000')
+
+
+                        #cyclic 
+                        if '82' in parsed.keys() and parsed['82'].startswith('46'):
+                                num_rec = int(parsed['82'][8:], 16)
+                                len_rec = parsed['82'][6:8]
+                                print(num_rec, len_rec)
+                                for i in range(num_rec + 1):
+                                        (data ,sw) = scc.send_apdu_without_length(ins = 'b2',p1 = '%02x'%(i), p2 = '04', data = str(len_rec))
+                                        record_list.append(data)
+                                
+                                assert(sw == '9000')
+                                adf_ef.set_type('cyclic')
+                                adf_ef.set_data(record_list)
+                                
+                        adf_dir.append(adf_ef)
                 else:
                       error_adf.append((adf_ef, sw))  
 
         print(adf_dir)
         print(error_adf)
                                 
-                
-        
-        '''
-	# EF.ICCID
-        print("EF.ICCID")
-	(res, sw) = scc.read_binary(EF['ICCID'])
-	if sw == '9000':
-		print("ICCID: %s" % (dec_iccid(res),))
-	else:
-		print("ICCID: Can't read, response code = %s" % (sw,))
-
-	# EF.IMSI
-        print("EF.IMSI")
-	(res, sw) = scc.read_binary(['3f00', '7f20', '6f07'])
-	if sw == '9000':
-		print("IMSI: %s" % (dec_imsi(res),))
-	else:
-		print("IMSI: Can't read, response code = %s" % (sw,))
-
-
-        print("EF.SMSP")
-	# EF.SMSP
-	(res, sw) = scc.read_record(['3f00', '7f10', '6f42'], 1)
-	if sw == '9000':
-		print("SMSP: %s" % (res,))
-	else:
-		print("SMSP: Can't read, response code = %s" % (sw,))
-
-        print("EF.P:MNsel")
-        
-	# EF.AD
-        print("EF.AD")
-	(res, sw) = scc.read_binary(['3f00', '7f20', '6fad'])
-	if sw == '9000':
-		print("AD: %s" % (res,))
-	else:
-		print("AD: Can't read, response code = %s" % (sw,))
-
-	# Done for this card and maybe for everything ?
-	print ("Done !\n")
-        '''
+      
