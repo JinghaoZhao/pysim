@@ -101,6 +101,7 @@ if __name__ == '__main__':
 	print("Reading ...")
 
 	# EF.ICCID
+        print("EF.ICCID")
 	(res, sw) = scc.read_binary(EF['ICCID'])
 	if sw == '9000':
 		print("ICCID: %s" % (dec_iccid(res),))
@@ -108,12 +109,15 @@ if __name__ == '__main__':
 		print("ICCID: Can't read, response code = %s" % (sw,))
 
 	# EF.IMSI
+        print("EF.IMSI")
 	(res, sw) = scc.read_binary(['3f00', '7f20', '6f07'])
 	if sw == '9000':
 		print("IMSI: %s" % (dec_imsi(res),))
 	else:
 		print("IMSI: Can't read, response code = %s" % (sw,))
 
+
+        print("EF.SMSP")
 	# EF.SMSP
 	(res, sw) = scc.read_record(['3f00', '7f10', '6f42'], 1)
 	if sw == '9000':
@@ -121,6 +125,8 @@ if __name__ == '__main__':
 	else:
 		print("SMSP: Can't read, response code = %s" % (sw,))
 
+        print("EF.P:MNsel")
+        
 	# EF.PLMNsel
 	try:
 		(res, sw) = scc.read_binary(EF['PLMNsel'])
@@ -132,6 +138,7 @@ if __name__ == '__main__':
 		print ("HPLMNAcT: Can't read file -- " + str(e))
 
 	# EF.PLMNwAcT
+        print("EF.PLMwACT")
 	try:
 		(res, sw) = scc.read_binary(EF['PLMNwAcT'])
 		if sw == '9000':
@@ -142,6 +149,7 @@ if __name__ == '__main__':
 		print ("PLMNwAcT: Can't read file -- " + str(e))
 
 	# EF.OPLMNwAcT
+        print("EF.OPLMWAct")
 	try:
 		(res, sw) = scc.read_binary(EF['OPLMNwAcT'])
 		if sw == '9000':
@@ -152,6 +160,7 @@ if __name__ == '__main__':
 		print ("OPLMNwAcT: Can't read file -- " + str(e))
 
 	# EF.HPLMNAcT
+        print("EF.HPLMNact")
 	try:
 		(res, sw) = scc.read_binary(EF['HPLMNAcT'])
 		if sw == '9000':
@@ -162,6 +171,7 @@ if __name__ == '__main__':
 		print ("HPLMNAcT: Can't read file -- " + str(e))
 
 	# EF.ACC
+        print("EF.ACC")
 	(res, sw) = scc.read_binary(['3f00', '7f20', '6f78'])
 	if sw == '9000':
 		print("ACC: %s" % (res,))
@@ -169,6 +179,7 @@ if __name__ == '__main__':
 		print("ACC: Can't read, response code = %s" % (sw,))
 
 	# EF.MSISDN
+        
 	try:
 	#	print(scc.record_size(['3f00', '7f10', '6f40']))
 		(res, sw) = scc.read_record(['3f00', '7f10', '6f40'], 1)
@@ -183,6 +194,7 @@ if __name__ == '__main__':
 		print ("MSISDN: Can't read file -- " + str(e))
 
 	# EF.AD
+        print("EF.AD")
 	(res, sw) = scc.read_binary(['3f00', '7f20', '6fad'])
 	if sw == '9000':
 		print("AD: %s" % (res,))

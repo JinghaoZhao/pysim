@@ -73,10 +73,27 @@ class LinkBase(object):
 		# See also:
 		# SW1=9F: 3GPP TS 51.011 9.4.1, Responses to commands which are correctly executed
 		# SW1=61: ISO/IEC 7816-4, Table 5 — General meaning of the interindustry values of SW1-SW2
+                def beautiful_print_apdu(s):
+                        cla = s[0:2]
+                        ins = s[2:4]
+                        p1 = s[4:6]
+                        p2 = s[6:8]
+                        length = s[8:10]
+                        data = s[10:]
+                        print("APDU SENT:")
+                        print("CLA: " + cla)
+                        print("INS: " + ins)
+                        print("p1: " + p1)
+                        print("p2: " + p2)
+                        print("length: " + length)
+                        print("data: " + data)
+                beautiful_print_apdu(pdu)
 		if (sw is not None) and ((sw[0:2] == '9f') or (sw[0:2] == '61')):
 			pdu_gr = pdu[0:2] + 'c00000' + sw[2:4]
 			data, sw = self.send_apdu_raw(pdu_gr)
-
+                print("APDU Response code: " + sw)
+                print("APDU Response data : " + data)
+                print("============================")
 		return data, sw
 
 	def send_apdu_checksw(self, pdu, sw="9000"):
