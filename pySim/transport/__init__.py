@@ -93,7 +93,6 @@ class LinkBase(object):
 			data, sw = self.send_apdu_raw(pdu_gr)
                 print("APDU Response code: " + sw)
                 print("APDU Response data : " + data)
-                print("============================")
 		return data, sw
 
 	def send_apdu_checksw(self, pdu, sw="9000"):

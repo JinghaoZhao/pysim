@@ -28,7 +28,7 @@ import os
 import random
 import re
 import sys
-#from pySim.ts_51_011 import EF, DF
+from pySim.ts_51_011 import EF, DF
 
 try:
 	import json
@@ -39,20 +39,7 @@ except ImportError:
 from pySim.commands import SimCardCommands
 from pySim.utils import h2b, swap_nibbles, rpad, dec_imsi, dec_iccid, format_xplmn_w_act
 
-class EF:
-        def __init__(self, name):
-                self.name = name
-                self.fci = None
-                self.data = None
-        def __repr__(self):
-                return self.name
-        
-        def set_fci(self, fci):
-                self.fci = fci
-                
-        def set_data(self, data):
-                self.data = data
-                
+
 def parse_options():
 
 	parser = OptionParser(usage="usage: %prog [options]")
@@ -113,45 +100,6 @@ if __name__ == '__main__':
 	# Program the card
 	print("Reading ...")
 
-        
-
-        scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = '3F00')
-        scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = '2F00')
-        scc.send_apdu_without_length(ins = 'b2',p1 = '01', p2 = '04', data = '26')
-        scc.send_apdu(ins = 'a4',p1 = '04', p2 = '04', data = 'a0000000871002ffffffff8907090000')
-        scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = '6F07')
-        scc.send_apdu_without_length(ins = 'b0',p1 = '01', p2 = '04', data = '9')
-        
-        adf_list = ['6F05', '6F06','6F07','6F08','6F09','6F2C','6F31','6F32','6F37','6F38','6F39','6F3B','6F3C','6F3E','6F3F','6F40','6F41','6F42','6F43','6F45','6F46','6F47','6F48','6F49','6F4B','6F4C','6F4D','6F4E','6F4F','6F50','6F55','6F56','6F57','6F58','6F5B','6F5C','6F5C','6F60','6F61','6F62','6F73','6F78','6F7B','6F7E','6F80','6F81','6F82','6F83','6FAD','6FB1','6FB2','6FB3','6FB4','6FB5','6FB6','6FB7','6FC3','6FC4','6FC5','6FC6','6FC7','6FC8','6FC9','6FCA','6FCB','6FCC','6FCD','6FCE','6FCF','6FD0','6FD1','6FD2','6FD3','6FD4','6FD5','6FD6','6FD7','6FD8','6FD9','6FDA','6FDB','6FDC','6FDD','6FDE','6FDF','6FE2','6FE3','6FE4','6FE6','6FE7','6FE8','6FEC','6FED','6FEE','6FEF','6FF0','6FF1','6FF2','6FF3','6FF4']
-
-        adf_dir = []
-        error_adf = []
-        for adf_ef in adf_list:
-                print("***********************************************************************")
-                adf_ef = EF(adf_ef)
-                print(adf_ef.name)
-                scc.send_apdu(ins = 'a4',p1 = '04', p2 = '04', data = 'a0000000871002ffffffff8907090000')
-                (fci, sw), parsed = scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = adf_ef.name)
-                
-                if sw == '6a82':
-                        continue
-
-                elif sw == '9000':
-                        if '82' in parsed.keys() and '82' == '41': 
-                                scc.send_apdu_without_length(ins = 'b0',p1 = '01', p2 = '04', data = parsed['80'])
-                        if '82' in parsed.keys() and '82' == '42':
-                                scc.send_apdu_without_length(ins = 'b0',p1 = '01', p2 = '04', data = parsed['80'])
-                        adf_dir.append(adf_ef)
-
-                else:
-                      error_adf.append((adf_ef, sw))  
-
-        print(adf_dir)
-        print(error_adf)
-                                
-                
-        
-        '''
 	# EF.ICCID
         print("EF.ICCID")
 	(res, sw) = scc.read_binary(EF['ICCID'])
@@ -179,6 +127,72 @@ if __name__ == '__main__':
 
         print("EF.P:MNsel")
         
+	# EF.PLMNsel
+	try:
+		(res, sw) = scc.read_binary(EF['PLMNsel'])
+		if sw == '9000':
+			print("PLMNsel: %s" % (res))
+		else:
+			print("PLMNsel: Can't read, response code = %s" % (sw,))
+	except Exception as e:
+		print ("HPLMNAcT: Can't read file -- " + str(e))
+
+	# EF.PLMNwAcT
+        print("EF.PLMwACT")
+	try:
+		(res, sw) = scc.read_binary(EF['PLMNwAcT'])
+		if sw == '9000':
+			print("PLMNwAcT:\n%s" % (format_xplmn_w_act(res)))
+		else:
+			print("PLMNwAcT: Can't read, response code = %s" % (sw,))
+	except Exception as e:
+		print ("PLMNwAcT: Can't read file -- " + str(e))
+
+	# EF.OPLMNwAcT
+        print("EF.OPLMWAct")
+	try:
+		(res, sw) = scc.read_binary(EF['OPLMNwAcT'])
+		if sw == '9000':
+			print("OPLMNwAcT:\n%s" % (format_xplmn_w_act(res)))
+		else:
+			print("OPLMNwAcT: Can't read, response code = %s" % (sw,))
+	except Exception as e:
+		print ("OPLMNwAcT: Can't read file -- " + str(e))
+
+	# EF.HPLMNAcT
+        print("EF.HPLMNact")
+	try:
+		(res, sw) = scc.read_binary(EF['HPLMNAcT'])
+		if sw == '9000':
+			print("HPLMNAcT:\n%s" % (format_xplmn_w_act(res)))
+		else:
+			print("HPLMNAcT: Can't read, response code = %s" % (sw,))
+	except Exception as e:
+		print ("HPLMNAcT: Can't read file -- " + str(e))
+
+	# EF.ACC
+        print("EF.ACC")
+	(res, sw) = scc.read_binary(['3f00', '7f20', '6f78'])
+	if sw == '9000':
+		print("ACC: %s" % (res,))
+	else:
+		print("ACC: Can't read, response code = %s" % (sw,))
+
+	# EF.MSISDN
+        
+	try:
+	#	print(scc.record_size(['3f00', '7f10', '6f40']))
+		(res, sw) = scc.read_record(['3f00', '7f10', '6f40'], 1)
+		if sw == '9000':
+			if res[1] != 'f':
+				print("MSISDN: %s" % (res,))
+			else:
+				print("MSISDN: Not available")
+		else:
+			print("MSISDN: Can't read, response code = %s" % (sw,))
+	except Exception as e:
+		print ("MSISDN: Can't read file -- " + str(e))
+
 	# EF.AD
         print("EF.AD")
 	(res, sw) = scc.read_binary(['3f00', '7f20', '6fad'])
@@ -189,4 +203,3 @@ if __name__ == '__main__':
 
 	# Done for this card and maybe for everything ?
 	print ("Done !\n")
-        '''

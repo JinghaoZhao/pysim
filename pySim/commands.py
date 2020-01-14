@@ -27,7 +27,7 @@ from pySim.utils import rpad, b2h
 class SimCardCommands(object):
 	def __init__(self, transport):
 		self._tp = transport;
-		self._cla_byte = "a0"
+		self._cla_byte = "00"
 		self.sel_ctrl = "0000"
 
 	# Extract a single FCP item from TLV
@@ -58,7 +58,10 @@ class SimCardCommands(object):
 
 		# Skip FCP tag and length
 		tlv = fcp[skip:]
-		return tlvparser.parse(tlv)
+                
+		parsed_result = tlvparser.parse(tlv)
+                print(parsed_result)
+                return parsed_result
 
 	# Tell the length of a record by the card response
 	# USIMs respond with an FCP template, which is different
@@ -102,6 +105,7 @@ class SimCardCommands(object):
 
 	def select_file(self, dir_list):
 		rv = []
+                print("Current directory list: " + str(dir_list))
 		for i in dir_list:
 			data, sw = self._tp.send_apdu_checksw(self.cla_byte + "a4" + self.sel_ctrl + "02" + i)
 			rv.append(data)
@@ -170,3 +174,24 @@ class SimCardCommands(object):
 	def verify_chv(self, chv_no, code):
 		fc = rpad(b2h(code), 16)
 		return self._tp.send_apdu_checksw(self.cla_byte + '2000' + ('%02X' % chv_no) + '08' + fc)
+        
+        def send_apdu(self, ins, p1 = '00', p2 = '00', data = "", parse_tlv = True, beautiful_print = True):
+                ret = self._tp.send_apdu(self.cla_byte + ins + p1 + p2 + '%02x'%(len(data)/2) + data)
+                print(ret)
+                if ret[1] == '6a82':
+                        parse_tlv = False
+                if parse_tlv:
+                        parsed = self.__parse_fcp(ret[0])
+                        return ret, parsed
+                print("============================")
+                return ret, None
+        
+        def send_apdu_without_length(self, ins, p1 = '00', p2 = '00', data = "", parse_tlv = False, beautiful_print = True):
+                ret = self._tp.send_apdu(self.cla_byte + ins + p1 + p2  + data)
+                if parse_tlv:
+                        self.__parse_fcp(ret[0])
+                print("============================")
+                return ret
+                
+
+                      
