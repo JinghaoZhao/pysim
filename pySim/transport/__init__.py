@@ -65,14 +65,24 @@ class LinkBase(object):
 			    data : string (in hex) of returned data (ex. "074F4EFFFF")
 			    sw   : string (in hex) of status word (ex. "9000")
 		"""
-		data, sw = self.send_apdu_raw(pdu)
-
+                data, sw = self.send_apdu_raw(pdu)
+                self.last_pdu = pdu
+                self.last_data = data
+                self.last_sw = sw
 		# When whe have sent the first APDU, the SW may indicate that there are response bytes
 		# available. There are two SWs commonly used for this 9fxx (sim) and 61xx (usim), where
 		# xx is the number of response bytes available.
 		# See also:
 		# SW1=9F: 3GPP TS 51.011 9.4.1, Responses to commands which are correctly executed
 		# SW1=61: ISO/IEC 7816-4, Table 5 — General meaning of the interindustry values of SW1-SW2
+
+		if (sw is not None) and ((sw[0:2] == '9f') or (sw[0:2] == '61')):
+			pdu_gr = pdu[0:2] + 'c00000' + sw[2:4]
+			data, sw = self.send_apdu_raw(pdu_gr)
+                
+		return data, sw
+
+        def apdu_to_string(self):
                 def beautiful_print_apdu(s):
                         cla = s[0:2]
                         ins = s[2:4]
@@ -80,21 +90,19 @@ class LinkBase(object):
                         p2 = s[6:8]
                         length = s[8:10]
                         data = s[10:]
-                        print("APDU SENT:")
-                        print("CLA: " + cla)
-                        print("INS: " + ins)
-                        print("p1: " + p1)
-                        print("p2: " + p2)
-                        print("length: " + length)
-                        print("data: " + data)
-                beautiful_print_apdu(pdu)
-		if (sw is not None) and ((sw[0:2] == '9f') or (sw[0:2] == '61')):
-			pdu_gr = pdu[0:2] + 'c00000' + sw[2:4]
-			data, sw = self.send_apdu_raw(pdu_gr)
-                print("APDU Response code: " + sw)
-                print("APDU Response data : " + data)
-		return data, sw
-
+                        k = ("APDU SENT:")
+                        k += ("\nCLA: " + cla)
+                        k += ("\nINS: " + ins)
+                        k += ("\np1: " + p1)
+                        k += ("\np2: " + p2)
+                        k += ("\nlength: " + length)
+                        k += ("\ndata: " + data + '\n')
+                        return k
+                k = beautiful_print_apdu(self.last_pdu)
+                k += ("APDU Response code: " + self.last_sw)
+                k += ("APDU Response data : " + self.last_data)
+                return k
+        
 	def send_apdu_checksw(self, pdu, sw="9000"):
 		"""send_apdu_checksw(pdu,sw): Sends an APDU and check returned SW
 
