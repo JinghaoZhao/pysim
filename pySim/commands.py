@@ -41,7 +41,8 @@ class SimCardCommands(object):
 		fcp = fcp.lower()
 
 		if fcp[0:2] != '62':
-			raise ValueError('Tag of the FCP template does not match, expected 62 but got %s'%fcp[0:2])
+			return None
+			#raise ValueError('Tag of the FCP template does not match, expected 62 but got %s'%fcp[0:2])
 
 		# Unfortunately the spec is not very clear if the FCP length is
 		# coded as one or two byte vale, so we have to try it out by
@@ -175,7 +176,7 @@ class SimCardCommands(object):
 		fc = rpad(b2h(code), 16)
 		return self._tp.send_apdu_checksw(self.cla_byte + '2000' + ('%02X' % chv_no) + '08' + fc)
         
-        def send_apdu(self, ins, p1 = '00', p2 = '00', data = "", parse_tlv = True, beautiful_print = False):
+        def send_apdu(self, ins, p1 = '00', p2 = '00', data = "", parse_tlv = True, beautiful_print = True):
                 ret = self._tp.send_apdu(self.cla_byte + ins + p1 + p2 + '%02x'%(len(data)/2) + data)
                 if beautiful_print:
                         print(self._tp.apdu_to_string())
@@ -183,12 +184,13 @@ class SimCardCommands(object):
                 if ret[1] == '6a82':
                         parse_tlv = False
                 if parse_tlv:
+			print(ret[0])
                         parsed = self.__parse_fcp(ret[0])
                         return ret, parsed
 
                 return ret, None
         
-        def send_apdu_without_length(self, ins, p1 = '00', p2 = '00', data = "", parse_tlv = False, beautiful_print = False):
+        def send_apdu_without_length(self, ins, p1 = '00', p2 = '00', data = "", parse_tlv = False, beautiful_print = True):
                 ret = self._tp.send_apdu(self.cla_byte + ins + p1 + p2  + data)
                 if beautiful_print:
                         print(self._tp.apdu_to_string())

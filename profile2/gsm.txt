@@ -1,0 +1,6 @@
+[
+Name: 6F07
+ Type: transparent 
+ FCI: 62278202412183026f07a50ec001009b063f007f206f07ca01808a01058b036f060380020009880138 
+ Data: ffffffffffffffffff
+]

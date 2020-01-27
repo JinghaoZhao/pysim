@@ -65,6 +65,8 @@ class LinkBase(object):
 			    data : string (in hex) of returned data (ex. "074F4EFFFF")
 			    sw   : string (in hex) of status word (ex. "9000")
 		"""
+                with open("/tmp/pdu.txt", "a+") as f:
+                        f.write(pdu+"\n")
                 data, sw = self.send_apdu_raw(pdu)
                 self.last_pdu = pdu
                 self.last_data = data
@@ -114,6 +116,7 @@ class LinkBase(object):
 			    data : string (in hex) of returned data (ex. "074F4EFFFF")
 			    sw   : string (in hex) of status word (ex. "9000")
 		"""
+              
 		rv = self.send_apdu(pdu)
 
 		# Create a masked version of the returned status word

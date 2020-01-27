@@ -29,6 +29,7 @@ import random
 import re
 import sys
 #from pySim.ts_51_011 import EF, DF
+import json
 
 try:
 	import json
@@ -38,8 +39,6 @@ except ImportError:
 
 from pySim.commands import SimCardCommands
 from pySim.utils import h2b, swap_nibbles, rpad, dec_imsi, dec_iccid, format_xplmn_w_act
-
-USE_RECORD = False
 
 def parse_options():
 
@@ -135,11 +134,11 @@ def lsdf(dir):
 
                                 adf_ef.set_type('linear')
                                 adf_ef.set_data(record_list)
-                                #assert(sw == '9000')
+                                assert(sw == '9000')
 
 
                         #cyclic 
-                        elif USE_RECORD and '82' in parsed.keys() and parsed['82'].startswith('46'):
+                        elif '82' in parsed.keys() and parsed['82'].startswith('46'):
                                 record_list = []
                                 num_rec = int(parsed['82'][8:], 16)
                                 len_rec = parsed['82'][6:8]
@@ -149,7 +148,7 @@ def lsdf(dir):
                                         (data ,sw) = scc.send_apdu_without_length(ins = 'b2',p1 = '%02x'%(i), p2 = '04', data = str(len_rec))
                                         record_list.append(data)
                                 
-                                #assert(sw == '9000')
+                                assert(sw == '9000')
                                 adf_ef.set_type('cyclic')
                                 adf_ef.set_data(record_list)
                         else:
@@ -161,9 +160,9 @@ def lsdf(dir):
         return adf_dir, error_adf
 
 def save_profile(mf="", adf="", gsm="", telecom="", folder = "./profile/"):
-        import cPickle as pickle
-        with open(folder + "mf.profile", "w") as f:
-                pickle.dumps(mf)
+        import pickle
+        with open(folder + "mf.profile", "wb") as f:
+                pickle.dump(mf, f)
         with open(folder + "mf.txt", 'w') as f:
                 f.write(str(mf))
                 
@@ -182,7 +181,38 @@ def save_profile(mf="", adf="", gsm="", telecom="", folder = "./profile/"):
         with open(folder + "telecom.txt", 'w') as f:
                 f.write(str(telecom))
 
+def load_profile_single(s):
+        #print(s)
+        l = [k.strip("]").strip(":").strip().split("\n") for k in s.split("Name")[1:]]
+        ret = []
+        for record in l:
+                ef = EF(record[0])
+                ef.tp = record[1].strip().strip("Type").strip(":").strip()
+                ef.fci = record[2].strip().strip("FCI").strip(":").strip()
+                st = record[3].strip().strip("Data").strip(":").strip()
+                print(st)
+                if ef.tp == "transparent":
+                        ef.data = st
+                else:
+                        ef.data = [subst.strip().strip("'") for subst in st.strip('][').split(',') ]
+                ret.append(ef)
+        return ret
+                
+def load_profile(folder = "./profile/"):
 
+        with open(folder + "mf.txt", "r") as f:
+                mf = load_profile_single(f.read())
+                
+        with open(folder + "adf.txt", "r") as f:
+                adf =load_profile_single(f.read())
+                
+        with open(folder + "gsm.txt", "r") as f:
+                gsm = load_profile_single(f.read())
+
+        with open(folder + "telecom.txt", "r") as f:
+                telecom = load_profile_single(f.read())
+
+        return mf, adf, gsm, telecom
 
 if __name__ == '__main__':
 
@@ -215,46 +245,37 @@ if __name__ == '__main__':
 	# Program the card
 	print("Reading ...")
 
-        scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = '3F00')
+        #scc.send_apdu_without_length(ins = 'a4',p1 = '00', p2 = '00', data = '3F00')
 
-        #mf
-        mf_list = ['2F00', '2F05', '2F06', '2FE2', '2F08']
-        
-        mf_dir, error_mf = lsdf(mf_list)
-        print(mf_dir)
-        print(error_mf)
+        def write_EF(ef, parent):
+                print("===============")
+                print(ef)
+                scc.send_apdu(ins = 'a4',p1 = '00', p2 = '00', data = '3F00')
+                scc.send_apdu(ins = 'a4',p1 = '00', p2 = '00', data = parent)
+                scc.send_apdu(ins='e0', p1='00', p2='00', data= ef.fci)
+                scc.send_apdu(ins = 'a4',p1 = '00', p2 = '00', data = ef.name)
+                if ef.tp == "transparent":
+                        scc.send_apdu(ins = 'd6',p1 = '00', p2 = '00', data = ef.data)
+                        scc.send_apdu(ins = 'a4',p1 = '00', p2 = '00', data = ef.name)
+                        sw, data = scc.send_apdu_without_length(ins = 'b0',p1 = '00', p2 = '00', data = '0a')
+                        print(sw, data)
 
-        
-        #adf
-        scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = '2F00')
-        scc.send_apdu_without_length(ins = 'b2',p1 = '01', p2 = '04', data = '26')
-        scc.send_apdu(ins = 'a4',p1 = '04', p2 = '04', data = 'a0000000871002ffffffff8907090000')
-        #scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = '6F07')
-        
-        adf_list = ['6F05', '6F06','6F07','6F08','6F09','6F2C','6F31','6F32','6F37','6F38','6F39','6F3B','6F3C','6F3E','6F3F','6F40','6F41','6F42','6F43','6F45','6F46','6F47','6F48','6F49','6F4B','6F4C','6F4D','6F4E','6F4F','6F50','6F55','6F56','6F57','6F58','6F5B','6F5C','6F5C','6F60','6F61','6F62','6F73','6F78','6F7B','6F7E','6F80','6F81','6F82','6F83','6FAD','6FB1','6FB2','6FB3','6FB4','6FB5','6FB6','6FB7','6FC3','6FC4','6FC5','6FC6','6FC7','6FC8','6FC9','6FCA','6FCB','6FCC','6FCD','6FCE','6FCF','6FD0','6FD1','6FD2','6FD3','6FD4','6FD5','6FD6','6FD7','6FD8','6FD9','6FDA','6FDB','6FDC','6FDD','6FDE','6FDF','6FE2','6FE3','6FE4','6FE6','6FE7','6FE8','6FEC','6FED','6FEE','6FEF','6FF0','6FF1','6FF2','6FF3','6FF4']
+            
+                
+        mf, adf, gsm, telecom = load_profile()
+        #print(mf)
 
-        adf_dir, error_adf = lsdf(adf_list)
-        #print(adf_dir)
-        #print(error_adf)
-        
-        scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = '3F00')
-        scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = '7F20')
-        gsm_list = ['6F05', '6F07', '6F20','6F2C','6F30','6F31','6F32','6F37','6F38','6F39','6F3E','6F3F','6F41','6F45','6F46','6F48','6F74','6F78','6F7B','6F7E','6FAD','6FAE','6FB1','6FB2','6FB3','6FB4','6FB5','6FB6','6FB7','6F50','6F51','6F52','6F53','6F54','6F60','6F61','6F62','6F63','6F64','6FC5','6FC6','6FC7','6FC8','6FC9','6FCA','6FCB','6FCC']
-        gsm_dir, error_gsm = lsdf(gsm_list)
-        #print(gsm_dir)
-        #print(error_gsm)
+        #master file
+        for ef in mf:
+                write_EF(ef, '3F00')
 
-        scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = '3F00')
-        scc.send_apdu(ins = 'a4',p1 = '00', p2 = '04', data = '7F10')
-        telecom_list = ['6F06', '6F3A', '6F3B', '6F3C', '6F40', '6F42', '6F43', '6F44', '6F47', '6F49', '6F4A', '6F4B', '6F4C', '6F4D', '6F4E', '6F4F', '6F53', '6F54', '6FE0', '6FE1', '6FE5']
-        telecom_dir, error_telecom = lsdf(telecom_list)
+        scc.send_apdu(ins= '20', p1 = '00', p2 = '01', data = '1234')
+        scc.send_apdu(ins='e0', p1='00', p2='00', data= "62308202782183027f20a51683027fffcb0d00000000000000000000000000ca01828a01058b032f0601c606900100830101")
+        for ef in gsm:
+                write_EF(ef, '7F20')
 
-        print(error_mf, error_adf, error_gsm, error_telecom)
+        scc.send_apdu(ins='e0', p1='00', p2='00', data= '62308202782183027f10a51683027fffcb0d00000000000000000000000000ca01828a01058b032f0601c606900100830101')
+        for ef in telecom:
+                write_EF(ef, '7F10')
 
-        if USE_RECORD:
-                save_profile(mf_dir, adf_dir, gsm_dir, telecom_dir)
-        else:
-                save_profile(mf_dir, adf_dir, gsm_dir, telecom_dir, "./profile2/")
-
-        
         
