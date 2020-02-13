@@ -249,7 +249,8 @@ if __name__ == '__main__':
 	print(scc._tp.send_apdu('00a404000b0102030405060708090102'))
         scc.send_apdu(ins = 'a4',p1 = '00', p2 = '00', data = '3F00')
 
-        def write_EF(ef, parent):
+        def \
+                write_EF(ef, parent):
                 print("===============")
                 print(ef)
                 #scc.send_apdu(ins = 'a4',p1 = '00', p2 = '00', data = '3F00')
@@ -283,14 +284,17 @@ if __name__ == '__main__':
         for ef in mf:
                 write_EF(ef, '3F00')
 
+        scc.send_apdu(ins='a4', p1='00', p2='00', data='3F00')
         scc.send_apdu(ins='e0', p1='00', p2='00', data= "62308202782183027f20a51683027fffcb0d00000000000000000000000000ca01828a01058b032f0601c606900100830101")
         for ef in gsm:
                 write_EF(ef, '7F20')
 
+        scc.send_apdu(ins='a4', p1='00', p2='00', data='3F00')
         scc.send_apdu(ins='e0', p1='00', p2='00', data= '62308202782183027f10a51683027fffcb0d00000000000000000000000000ca01828a01058b032f0601c606900100830101')
         for ef in telecom:
                 write_EF(ef, '7F10')
 
+        scc.send_apdu(ins='a4', p1='00', p2='00', data='3F00')
         scc._tp.send_apdu('00e000005962578202782183027fff8410a0000000871002ffffffff8907090000a51683027fffcb0d00000000000000000000000000ca01808a0105ab15800101a40683010a95010880014097008001069000c609900140830101830181')
         #scc.send_apdu(ins='e0', p1='00', p2='00', data= '62308202782183027fffa51683027fffcb0d00000000000000000000000000ca01828a01058b032f0601c606900100830101')
         for ef in adf:
