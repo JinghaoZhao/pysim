@@ -205,14 +205,101 @@ if __name__ == '__main__':
     # Program the card
     print("Reading ...")
     # Read Trace
-    # ret = scc._tp.send_apdu('0098000000')
-    # print (ret)
     # ret = scc._tp.send_apdu('0099000000')
     # print (ret)
+    # ret = scc._tp.send_apdu('0098000000')
+    # print (ret)
+
+    # ret = scc._tp.send_apdu('00a40004022F00')
+    # print (ret)
+
     # ret = scc._tp.send_apdu('00a404000b0102030405060708090102')
     # print (ret)
-    ret = scc._tp.send_apdu('00a40004023F00')
+
+    # # reset history bytes 0092
+    # ret = scc._tp.send_apdu('0092000000')
+    # print (ret)
+
+    # ret = scc._tp.send_apdu('00CB004200')
+    # print (ret)
+
+    # ret = scc._tp.send_apdu('00a40004023F00')
+    # print (ret)
+    # switch profile
+    ret = scc._tp.send_apdu('00a9030000')
     print (ret)
+    # delete profile
+    # ret = scc._tp.send_apdu('00a6020000')
+    # print (ret)
+    # install profile
+    # ret = scc._tp.send_apdu('00a70000290829430191348767650644092A26DCEBA00503CF739EC097EEC8D74B739DAB27C6CEAB9BA5C98B7D67')
+    # print (ret)
+
+    # print(scc._tp.send_apdu('00a8000000')) # check sim status
+    # # -------------------------check IMSI-------------------------------
+    # print(scc._tp.send_apdu('00a40000026F07'))
+    # print(scc._tp.send_apdu('00b0000009'))
+    # # -------------------------check SIM Service Table-------------------------------
+    # print(scc._tp.send_apdu('00a40004027F20'))
+    # # print(scc._tp.send_apdu('00b0000009'))
+    # print(scc._tp.send_apdu('00a40004026F38'))
+    # print(scc._tp.send_apdu('00b000000a'))
+    # print(scc._tp.send_apdu('0098000000'))
+    # # -------------------------Send Terminal Profile-------------------------------
+    # print(scc._tp.send_apdu('8010000014FFFFFFFF1F0000DFD7030A000000000600000000'))
+    # # -------------------------Fetch cmd-------------------------------
+    # print(scc._tp.send_apdu('8012000028'))
+    # # -------------------------terminal response-------------------------------
+    # print(scc._tp.send_apdu('801400000C810301250002028281030100'))
+    # # # -------------------------Send Terminal Profile-------------------------------
+    # print(scc._tp.send_apdu('8011040000'))
+    # print(scc._tp.send_apdu('801200000b'))
+
+    # print(scc._tp.send_apdu('0099000000'))
+    # print(scc._tp.send_apdu('0098000000'))
+
+
+    # ret = scc._tp.send_apdu('00A5000000')
+    # print (ret)
+    # ret = scc._tp.send_apdu('80CAFF2100')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00a40400080102030405060708')
+    #
+    # print (ret)
+
+    # -----------------------Read ATT SIM card---------------------------------------
+    # ret = scc._tp.send_apdu('00a40004023F00')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00a40004022F00')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00b2010426')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00b2020426')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00b2030426')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00a40004027FF0')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00a40004026FC4') # Network Parameter
+    # print (ret)
+    # ret = scc._tp.send_apdu('00b00000da')
+    # print (ret)
+
+
+    # ret = scc._tp.send_apdu('00A904000100')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00990400023F00')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00a40800023F00')
+    # print (ret)
+    # ret = scc._tp.send_apdu('84E20801083F00')
+    # print (ret)
+
+    # Switch Profile
+    # ret = scc._tp.send_apdu('00A9020000')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00A8000000')
+    # print (ret)
 
 
     # ret = scc._tp.send_apdu('00a40004022F00')
@@ -221,6 +308,16 @@ if __name__ == '__main__':
     # print (ret)
     # print("--------------------------------Select ADF-----------------------------------")
     # ret = scc._tp.send_apdu('00a4040410a0000000871002ffffffff8907090000')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00a40804047fff6f73')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00b000000e')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00a40804047fff6f07')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00b0000009')
+    # print (ret)
+    # ret = scc._tp.send_apdu('00a404000ba000000308000010000100')
     # print (ret)
 
     # ret = scc._tp.send_apdu('00a40804047fff6f7b')
@@ -275,8 +372,8 @@ if __name__ == '__main__':
     # Auth
     # ret = scc._tp.send_apdu('00a4040410a0000000871002ffffffff8907090000')
     # print (ret)
-    ret = scc._tp.send_apdu('008800812210000102030405060708090a0b0c0d0e0f1087f13e021abf00006c02a47ff765dd84')
-    print (ret)
+    # ret = scc._tp.send_apdu('008800812210000102030405060708090a0b0c0d0e0f1087f13e021abf00006c02a47ff765dd84')
+    # print (ret)
     # ret = scc._tp.send_apdu('00c0000035')
     # print (ret)
 
